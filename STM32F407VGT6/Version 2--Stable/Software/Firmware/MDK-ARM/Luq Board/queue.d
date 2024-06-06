@@ -1,0 +1,15 @@
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+luq board\queue.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+luq board\queue.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+luq board\queue.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+luq board\queue.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+luq board\queue.o: ../Core/Inc/FreeRTOSConfig.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+luq board\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

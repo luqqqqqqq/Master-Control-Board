@@ -1,0 +1,14 @@
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+luq board\croutine.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+luq board\croutine.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+luq board\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+luq board\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

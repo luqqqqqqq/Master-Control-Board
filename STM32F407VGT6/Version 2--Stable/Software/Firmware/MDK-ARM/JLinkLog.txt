@@ -1,0 +1,141 @@
+T13D4 000:192.678   SEGGER J-Link V7.82 Log File
+T13D4 000:193.009   DLL Compiled: Oct 13 2022 13:32:51
+T13D4 000:193.022   Logging started @ 2024-05-28 22:56
+T13D4 000:193.035 - 193.041ms
+T13D4 000:193.056 JLINK_SetWarnOutHandler(...)
+T13D4 000:193.071 - 0.021ms
+T13D4 000:193.085 JLINK_OpenEx(...)
+T13D4 000:195.601   Firmware: J-Link V9 compiled Apr 21 2017 11:08:06
+T13D4 000:196.151   Firmware: J-Link V9 compiled Apr 21 2017 11:08:06
+T13D4 000:196.535   Decompressing FW timestamp took 291 us
+T13D4 000:208.327   Decompressing FW took 11731 us
+T13D4 000:208.810   Looking for J-Link GUI Server exe at: E:\hard-sorfware\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T13D4 000:209.052   Looking for J-Link GUI Server exe at: E:\hard-sorfware\JLink_V630f\\JLinkGUIServer.exe
+T13D4 000:511.040   Failed to connect to J-Link GUI Server.
+T13D4 002:661.845   Hardware: V9.20
+T13D4 002:661.895   S/N: 29999997
+T13D4 002:661.918   OEM: SEGGER
+T13D4 002:661.945   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T13D4 002:663.501   TELNET listener socket opened on port 19021
+T13D4 002:663.699   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T13D4 002:664.111   WEBSRV Webserver running on local port 19080
+T13D4 002:677.224 - 2484.162ms returns "O.K."
+T13D4 002:677.286 JLINK_GetEmuCaps()
+T13D4 002:677.305 - 0.027ms returns 0xB9FF7BBF
+T13D4 002:677.332 JLINK_TIF_GetAvailable(...)
+T13D4 002:677.824 - 0.508ms
+T13D4 002:677.856 JLINK_SetErrorOutHandler(...)
+T13D4 002:677.874 - 0.025ms
+T13D4 002:677.918 JLINK_ExecCommand("ProjectFile = "C:\Users\Administrator\Desktop\learning file\Project\Master Control Board\STM32F407VGT6\Version 2--Stable\Software\Firmware\MDK-ARM\JLinkSettings.ini"", ...). 
+T13D4 002:702.430 - 24.530ms returns 0x00
+T13D4 002:702.488 JLINK_ExecCommand("Device = STM32F407VETx", ...). 
+T13D4 002:703.250   Device "STM32F407VE" selected.
+T13D4 002:704.080 - 1.586ms returns 0x00
+T13D4 002:704.117 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T13D4 002:704.145 - 0.013ms returns 0x01
+T13D4 002:704.168 JLINK_GetHardwareVersion()
+T13D4 002:704.185 - 0.024ms returns 92000
+T13D4 002:704.213 JLINK_GetDLLVersion()
+T13D4 002:704.229 - 0.025ms returns 78200
+T13D4 002:704.249 JLINK_GetOEMString(...)
+T13D4 002:704.271 JLINK_GetFirmwareString(...)
+T13D4 002:704.287 - 0.024ms
+T13D4 002:704.314 JLINK_GetDLLVersion()
+T13D4 002:704.331 - 0.025ms returns 78200
+T13D4 002:704.352 JLINK_GetCompileDateTime()
+T13D4 002:704.368 - 0.025ms
+T13D4 002:704.391 JLINK_GetFirmwareString(...)
+T13D4 002:704.407 - 0.024ms
+T13D4 002:704.429 JLINK_GetHardwareVersion()
+T13D4 002:704.446 - 0.025ms returns 92000
+T13D4 002:704.468 JLINK_GetSN()
+T13D4 002:704.484 - 0.025ms returns 29999997
+T13D4 002:704.506 JLINK_GetOEMString(...)
+T13D4 002:704.532 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T13D4 002:705.670 - 1.167ms returns 0x00
+T13D4 002:705.715 JLINK_HasError()
+T13D4 002:705.754 JLINK_SetSpeed(5000)
+T13D4 002:705.907 - 0.173ms
+T13D4 002:706.534 JLINK_HasError()
+T13D4 002:706.566 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T13D4 002:706.583 - 0.024ms returns JLINKARM_RESET_TYPE_NORMAL
+T13D4 002:706.603 JLINK_Reset()
+T13D4 002:706.877   InitTarget() start
+T13D4 002:706.912    J-Link Script File: Executing InitTarget()
+T13D4 002:708.025   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T13D4 002:708.342   Error: Scanning JTAG chain failed.
+T13D4 002:708.393   Can not attach to CPU. Trying connect under reset.
+T13D4 002:908.924   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 002:961.075   Could not measure total IR len. TDO is constant high.
+T13D4 002:961.441   Error: Scanning JTAG chain failed.
+T13D4 002:961.477   Connecting to CPU via connect under reset failed.
+T13D4 003:011.967   InitTarget() end
+T13D4 003:012.015   Connect failed. Resetting via Reset pin and trying again.
+T13D4 003:212.930   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 003:274.960   InitTarget() start
+T13D4 003:274.994    J-Link Script File: Executing InitTarget()
+T13D4 003:276.224   Could not measure total IR len. TDO is constant high.
+T13D4 003:276.670   Error: Scanning JTAG chain failed.
+T13D4 003:276.706   Can not attach to CPU. Trying connect under reset.
+T13D4 003:478.683   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 003:530.682   Could not measure total IR len. TDO is constant high.
+T13D4 003:531.033   Error: Scanning JTAG chain failed.
+T13D4 003:531.068   Connecting to CPU via connect under reset failed.
+T13D4 003:581.636   InitTarget() end
+T13D4 003:581.681 - 875.089ms
+T13D4 003:581.716 JLINK_GetIdData(pIdData)
+T13D4 003:582.398   InitTarget() start
+T13D4 003:582.431    J-Link Script File: Executing InitTarget()
+T13D4 003:583.580   Could not measure total IR len. TDO is constant high.
+T13D4 003:583.981   Error: Scanning JTAG chain failed.
+T13D4 003:584.018   Can not attach to CPU. Trying connect under reset.
+T13D4 003:784.700   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 003:836.702   Could not measure total IR len. TDO is constant high.
+T13D4 003:837.119   Error: Scanning JTAG chain failed.
+T13D4 003:837.167   Connecting to CPU via connect under reset failed.
+T13D4 003:887.791   InitTarget() end
+T13D4 003:887.827   Connect failed. Resetting via Reset pin and trying again.
+T13D4 004:088.816   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 004:150.769   InitTarget() start
+T13D4 004:150.813    J-Link Script File: Executing InitTarget()
+T13D4 004:152.443   Could not measure total IR len. TDO is constant high.
+T13D4 004:152.860   Error: Scanning JTAG chain failed.
+T13D4 004:152.910   Can not attach to CPU. Trying connect under reset.
+T13D4 004:353.815   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 004:405.733   Could not measure total IR len. TDO is constant high.
+T13D4 004:406.014   Error: Scanning JTAG chain failed.
+T13D4 004:406.042   Connecting to CPU via connect under reset failed.
+T13D4 004:456.845   InitTarget() end
+T13D4 004:456.880 - 875.170ms
+T13D4 004:456.908 JLINK_GetIdData(pIdData)
+T13D4 004:457.197   InitTarget() start
+T13D4 004:457.228    J-Link Script File: Executing InitTarget()
+T13D4 004:458.458   Could not measure total IR len. TDO is constant high.
+T13D4 004:458.859   Error: Scanning JTAG chain failed.
+T13D4 004:458.890   Can not attach to CPU. Trying connect under reset.
+T13D4 004:659.924   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 004:711.968   Could not measure total IR len. TDO is constant high.
+T13D4 004:712.337   Error: Scanning JTAG chain failed.
+T13D4 004:712.372   Connecting to CPU via connect under reset failed.
+T13D4 004:762.917   InitTarget() end
+T13D4 004:762.960   Connect failed. Resetting via Reset pin and trying again.
+T13D4 004:963.960   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 005:025.981   InitTarget() start
+T13D4 005:026.020    J-Link Script File: Executing InitTarget()
+T13D4 005:027.220   Could not measure total IR len. TDO is constant high.
+T13D4 005:027.563   Error: Scanning JTAG chain failed.
+T13D4 005:027.599   Can not attach to CPU. Trying connect under reset.
+T13D4 005:228.323   RESET (pin 15) high, but should be low. Please check target hardware.
+T13D4 005:280.470   Could not measure total IR len. TDO is constant high.
+T13D4 005:280.815   Error: Scanning JTAG chain failed.
+T13D4 005:280.851   Connecting to CPU via connect under reset failed.
+T13D4 005:331.370   InitTarget() end
+T13D4 005:331.405 - 874.504ms
+T13D4 005:348.660 JLINK_GetFirmwareString(...)
+T13D4 005:348.684 - 0.030ms
+T04CC 010:910.811   
+  ***** Error: Connection to emulator lost!
+T13D4 025:450.526 JLINK_Close()
+T13D4 025:469.289 - 18.791ms
+T13D4 025:469.328   
+T13D4 025:469.344   Closed

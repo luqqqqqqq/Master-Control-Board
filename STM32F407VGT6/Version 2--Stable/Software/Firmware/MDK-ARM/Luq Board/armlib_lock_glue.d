@@ -1,0 +1,15 @@
+luq board\armlib_lock_glue.o: armlib_lock_glue.c
+luq board\armlib_lock_glue.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+luq board\armlib_lock_glue.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+luq board\armlib_lock_glue.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+luq board\armlib_lock_glue.o: stm32_lock.h
+luq board\armlib_lock_glue.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+luq board\armlib_lock_glue.o: ../Core/Inc/FreeRTOSConfig.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+luq board\armlib_lock_glue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

@@ -1,0 +1,15 @@
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+luq board\event_groups.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+luq board\event_groups.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+luq board\event_groups.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+luq board\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+luq board\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

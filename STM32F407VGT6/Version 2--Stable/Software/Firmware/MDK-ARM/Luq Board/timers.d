@@ -1,0 +1,15 @@
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+luq board\timers.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+luq board\timers.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+luq board\timers.o: E:\hard-sorfware\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+luq board\timers.o: ../Core/Inc/FreeRTOSConfig.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+luq board\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
