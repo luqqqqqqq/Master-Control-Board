@@ -14,6 +14,10 @@ typedef struct {
 //can rx data frame
 static CAN_RxFrameTypeDef can_rx_frame;
 
+//user rx msg from can 
+static uint8_t CAN1_Msg[8];
+static uint8_t CAN2_Msg[8];
+
 //can tx header(StdId=ID ExtId=0 IDE=0 RTR=0 DLC=8)
 static CAN_TxHeaderTypeDef pheader={0,0,0,0,8};
 

@@ -1,7 +1,7 @@
 Dependencies for Project 'Luq Board', Target 'Luq Board': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (..\Task\Src\user_handler.c)(0x6651C169)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\user_handler.o" --omf_browse "luq board\user_handler.crf" --depend "luq board\user_handler.d")
-I (..\Task\Inc\user_handler.h)(0x66326973)
+F (..\Task\Src\user_handler.c)(0x666BFCBF)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\user_handler.o" --omf_browse "luq board\user_handler.crf" --depend "luq board\user_handler.d")
+I (../Task/Inc/user_handler.h)(0x666BFBB5)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x662339B4)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x663F52C2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x662339B4)
@@ -35,7 +35,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x662339B4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x662339B4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x662339B4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x662339B4)
-F (..\Task\Src\user_task.c)(0x665471F6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\user_task.o" --omf_browse "luq board\user_task.crf" --depend "luq board\user_task.d")
+I (../Peripherals/Inc/can_drv.h)(0x666BFD62)
+F (..\Task\Src\user_task.c)(0x666C076E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\user_task.o" --omf_browse "luq board\user_task.crf" --depend "luq board\user_task.d")
 I (../Task/Inc/user_task.h)(0x66373C4A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x662339B4)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x663F52C2)
@@ -85,7 +86,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x662339B7)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x662339B7)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x662339B7)
 I (../Peripherals/Inc/dev_drv.h)(0x6634D426)
-I (../Peripherals/Inc/can_drv.h)(0x66373E0B)
+I (../Peripherals/Inc/can_drv.h)(0x666BFD62)
 I (../Peripherals/Inc/uart_drv.h)(0x66373E1E)
 I (E:\hard-sorfware\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (../Peripherals/Inc/tim_drv.h)(0x66334AFA)
@@ -155,7 +156,7 @@ I (../Core/Inc/spi.h)(0x663F52C1)
 I (../Core/Inc/usart.h)(0x663F52C1)
 I (../Core/Inc/gpio.h)(0x663F52BB)
 I (../Peripherals/Inc/dev_drv.h)(0x6634D426)
-I (../Peripherals/Inc/can_drv.h)(0x66373E0B)
+I (../Peripherals/Inc/can_drv.h)(0x666BFD62)
 I (../Peripherals/Inc/uart_drv.h)(0x66373E1E)
 I (E:\hard-sorfware\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (../Peripherals/Inc/tim_drv.h)(0x66334AFA)
@@ -253,7 +254,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x662339B7)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x662339B7)
 I (../Task/Inc/user_task.h)(0x66373C4A)
 I (../Peripherals/Inc/dev_drv.h)(0x6634D426)
-I (../Peripherals/Inc/can_drv.h)(0x66373E0B)
+I (../Peripherals/Inc/can_drv.h)(0x666BFD62)
 I (../Peripherals/Inc/uart_drv.h)(0x66373E1E)
 I (E:\hard-sorfware\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (../Peripherals/Inc/tim_drv.h)(0x66334AFA)
@@ -712,7 +713,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x662339B7)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x662339B7)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x662339B7)
-F (..\Peripherals\Src\bmi_drv.c)(0x66547197)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\bmi_drv.o" --omf_browse "luq board\bmi_drv.crf" --depend "luq board\bmi_drv.d")
+F (..\Peripherals\Src\bmi_drv.c)(0x666BFE36)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\bmi_drv.o" --omf_browse "luq board\bmi_drv.crf" --depend "luq board\bmi_drv.d")
 I (../Peripherals/Inc/bmi_drv.h)(0x6651B52F)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x662339B4)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x663F52C2)
@@ -755,8 +756,8 @@ I (../Peripherals/Inc/gpio_drv.h)(0x66512945)
 I (../Core/Inc/gpio.h)(0x663F52BB)
 I (../Core/Inc/main.h)(0x663F52C2)
 I (../Peripherals/Inc/spi_drv.h)(0x6634D438)
-F (..\Peripherals\Src\can_drv.c)(0x66546661)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\can_drv.o" --omf_browse "luq board\can_drv.crf" --depend "luq board\can_drv.d")
-I (..\Peripherals\Inc\can_drv.h)(0x66373E0B)
+F (..\Peripherals\Src\can_drv.c)(0x666BFB2C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BMI270/Inc -I ../Peripherals/Inc -I ../Task/Inc-I.\RTE\_Luq_Board-IE:\hard-sorfware\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\hard-sorfware\Arm\Packs\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="4"-o "luq board\can_drv.o" --omf_browse "luq board\can_drv.crf" --depend "luq board\can_drv.d")
+I (../Peripherals/Inc/can_drv.h)(0x666BFD62)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x662339B4)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x663F52C2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x662339B4)
@@ -825,7 +826,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x662339B4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x662339B4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x662339B4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x662339B4)
-I (../Peripherals/Inc/can_drv.h)(0x66373E0B)
+I (../Peripherals/Inc/can_drv.h)(0x666BFD62)
 I (../Peripherals/Inc/uart_drv.h)(0x66373E1E)
 I (E:\hard-sorfware\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (../Peripherals/Inc/tim_drv.h)(0x66334AFA)

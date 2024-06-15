@@ -4,6 +4,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "can_drv.h"
 
 //all handler
 __WEAK void CAN1_RX_Handler(uint32_t rxId, uint8_t *rxBuf);

@@ -157,7 +157,6 @@ int8_t set_accel_gyro_config(struct bmi2_dev *bmi2_dev)
 }
 
 //get accel & gyro & temp
-bmi270_data test;
 void bmi270_get_data(void)
 {
 	//get accel & gyro
@@ -182,5 +181,4 @@ void bmi270_get_data(void)
 	SPI2_CS_OFF
 	for(uint8_t i=0;i<3;i++)data[i] = data[i+1];
 	bmi270_raw_data.temp	 = (int16_t)data[0] | ( (int16_t)data[1] << 8);
-	test=bmi270_raw_data;
 }
