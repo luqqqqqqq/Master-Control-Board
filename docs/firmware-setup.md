@@ -14,7 +14,7 @@
 - **CAN1、CAN2**：CubeMX 当前配置为 1 Mbps，启用自动离线管理和自动唤醒。
 - **USART1/2/3、UART4/5、USART6**：串口接收使用 DMA/中断组合，具体引脚以 `.ioc` 为准。
 - **SPI1、SPI2**：SPI2 连接 BMI270，片选由 GPIO 控制。
-- **FreeRTOS**：任务入口在 `Task/user_task.c`，回调集中在 `Task/user_handler.c`。
+- **FreeRTOS**：任务入口在 `Task/Src/user_task.c`，回调集中在 `Task/Src/user_handler.c`。
 - **IWDG**：用于基础运行时看门狗保护。
 
 ## 工程约定
@@ -23,7 +23,7 @@
 - `Peripherals/` 提供 CAN、UART、SPI、TIM、GPIO 等项目驱动封装。
 - `BMI270/` 保留 Bosch BMI270 Sensor API 及其适配代码。
 - 重生成 CubeMX 工程时，保留用户代码区，并检查 Keil 工程中的 include path 和 source group。
-- 任务逻辑优先放入 `Task/`，设备初始化放在 `Peripherals/dev_drv.*`，避免直接修改第三方驱动。
+- 任务逻辑优先放入 `Task/`，设备初始化放在 `Peripherals/Src/dev_drv.c`，对应头文件位于 `Peripherals/Inc/dev_drv.h`。
 
 ## 关键配置
 
@@ -45,4 +45,4 @@
 - `gpio_drv.*`：LED、激光和外部中断相关 GPIO 宏与操作。
 - `bmi_drv.*`：BMI270 初始化和数据读取适配。
 
-这份说明描述的是当前稳定快照的开发入口；如果后续重新生成 CubeMX 工程，请把变更同步记录在 `CHANGELOG.md`。
+本文对应 Master Control Board `v1.0.0`。修改 CubeMX 配置或固件功能后，请在仓库根目录的 [CHANGELOG.md](../CHANGELOG.md) 中记录变更。

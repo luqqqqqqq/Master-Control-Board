@@ -1,11 +1,10 @@
-# Master Control Board
+# Master Control Board v1.0.0
 
 <div align="center">
 
 **面向机器人控制系统的开源 STM32 主控板**<br>
 *An open-source STM32 control board for robotics projects*
 
-[![Version](https://img.shields.io/github/v/tag/luqqqqqqq/Master-Control-Board?label=version&color=2563eb)](https://github.com/luqqqqqqq/Master-Control-Board/tree/v1.0.0)
 [![License](https://img.shields.io/badge/license-GPL--3.0-7c3aed.svg)](LICENSE)
 
 </div>
@@ -17,9 +16,9 @@
 
 ## 项目简介
 
-Master Control Board 是一块以 **STM32F407VET6** 为核心、集成 **BMI270 六轴 IMU** 的机器人主控板，定位类似 DJI C Board 的通用控制核心。当前稳定版本已经在 RM 比赛项目中实际使用，仓库同时提供 PCB、固件、外壳和制造资料。
+Master Control Board 是一块以 **STM32F407VET6** 为核心、集成 **BMI270 六轴 IMU** 的机器人主控板，定位类似 DJI C Board 的通用控制核心。项目已在 RM 比赛项目中实际使用。本仓库提供 `v1.0.0` 的 PCB、固件、外壳和制造资料。
 
-The repository contains the complete `v1.0.0` hardware and firmware snapshot. The design is usable, but formal electrical and environmental parameter testing is still incomplete.
+Master Control Board `v1.0.0` includes hardware design files, firmware, enclosure models and manufacturing files. The board has been used in RM competition projects; formal electrical and environmental test reports are still incomplete.
 
 ## 主要特性
 
@@ -75,12 +74,11 @@ CubeMX 工程位于 [`Luq Board.ioc`](v1.0.0/firmware/Luq%20Board.ioc)。更完�
 
 下单前请根据板厂能力重新确认叠层、阻抗、板厚和器件封装。PCB 中的陀螺仪区域需要尽量减少机械应力，相关设计记录见 [`imu-layout-notes.md`](v1.0.0/hardware/pcb/imu-layout-notes.md)。
 
-## 当前状态
+## 验证情况
 
-- **版本：** `v1.0.0` / Stable
 - **验证：** 已在 RM 比赛项目中投入使用
 - **待完善：** 温漂、振动、长期稳定性和完整电气参数测试尚未形成正式报告
-- **兼容性：** 工程配置以 STM32F407VET6 为准；旧目录名中的 `VGT6` 是历史命名
+- **目标芯片：** 工程配置为 STM32F407VET6
 
 ## 致谢
 

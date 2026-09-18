@@ -17,6 +17,7 @@
 # Local IDE state
 **/*.uvoptx
 **/DebugConfig/
+/docs/tools/st-studio-imu.log
 
 # OS/editor files
 .DS_Store
