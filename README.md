@@ -98,6 +98,8 @@ Keil 中间文件留在工具默认输出目录并由 Git 忽略；`releases/` �
 
 感谢 **SZU PR 战队** 提供设备支持和测试条件。
 
+本仓库的 README、文档与目录结构采用作者的 `github-repo-template` 统一模板，通过 Codex 技能维护。
+
 ## 许可证
 
 项目顶层采用 [GNU GPL-3.0](LICENSE)。STM32 HAL、CMSIS、FreeRTOS 和 BMI270 API 等第三方代码保留其原始许可证与版权声明；分发时请一并遵守对应目录中的许可文件。
