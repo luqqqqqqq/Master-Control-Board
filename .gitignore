@@ -10,6 +10,7 @@
 **/MDK-ARM/*/*.lnp
 **/MDK-ARM/*/*.iex
 **/MDK-ARM/*/*.sct
+**/MDK-ARM/*/*.hex
 **/*.uvguix.*
 **/JLinkLog.txt
 
