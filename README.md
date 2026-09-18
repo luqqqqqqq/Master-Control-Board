@@ -6,8 +6,7 @@
 *An open-source STM32 control board for robotics projects*
 
 [![Version](https://img.shields.io/github/v/tag/luqqqqqqq/Master-Control-Board?label=version&color=2563eb)](https://github.com/luqqqqqqq/Master-Control-Board/tree/v1.0.0)
-[![Status](https://img.shields.io/badge/status-stable-16a34a.svg)](https://github.com/luqqqqqqq/Master-Control-Board/tree/v1.0.0)
-[![License](https://img.shields.io/badge/license-AGPL--3.0-7c3aed.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GPL--3.0-7c3aed.svg)](LICENSE)
 
 </div>
 
@@ -89,4 +88,4 @@ CubeMX 工程位于 [`Luq Board.ioc`](v1.0.0/firmware/Luq%20Board.ioc)。更完�
 
 ## 许可证
 
-项目顶层采用 [GNU AGPL-3.0](LICENSE)。STM32 HAL、CMSIS、FreeRTOS 和 BMI270 API 等第三方代码保留其原始许可证与版权声明；分发时请一并遵守对应目录中的许可文件。
+项目顶层采用 [GNU GPL-3.0](LICENSE)。STM32 HAL、CMSIS、FreeRTOS 和 BMI270 API 等第三方代码保留其原始许可证与版权声明；分发时请一并遵守对应目录中的许可文件。
