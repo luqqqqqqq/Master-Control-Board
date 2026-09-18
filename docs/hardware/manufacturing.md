@@ -1,10 +1,10 @@
 # PCB 制造资料
 
-本目录包含生产所需的 BOM、贴片坐标和制造压缩包：
+生产资料位于 [`hardware/pcb/manufacturing/`](../../hardware/pcb/manufacturing/)，包含 BOM、贴片坐标和制造压缩包：
 
-- `gerber-and-fabrication.zip`：Gerber/制板文件
-- `bom.xlsx`：物料清单
-- `pick-and-place.xlsx`：贴片坐标
+- [gerber-and-fabrication.zip](../../hardware/pcb/manufacturing/gerber-and-fabrication.zip)：Gerber/制板文件
+- [bom.xlsx](../../hardware/pcb/manufacturing/bom.xlsx)：物料清单
+- [pick-and-place.xlsx](../../hardware/pcb/manufacturing/pick-and-place.xlsx)：贴片坐标
 
 ## 下单前检查
 

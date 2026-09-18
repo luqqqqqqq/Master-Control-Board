@@ -1,6 +1,8 @@
-# 固件开发说明
+# 开发与验证
 
-本文记录 `v1.0.0` 固件的 CubeMX/Keil 配置要点。工程目标以 `Luq Board.ioc` 和 Keil 工程中的 `STM32F407VETx` 配置为准；文中的路径均相对于 `v1.0.0/firmware/`。
+[返回项目首页](../README.md) · [文档导航](README.md)
+
+本文记录 `v1.0.0` 固件的 CubeMX/Keil 配置要点。工程目标以 `Luq Board.ioc` 和 Keil 工程中的 `STM32F407VETx` 配置为准；下文源码路径均相对于 [`src/firmware/`](../src/firmware/)。
 
 ## 快速构建
 
@@ -45,4 +47,17 @@
 - `gpio_drv.*`：LED、激光和外部中断相关 GPIO 宏与操作。
 - `bmi_drv.*`：BMI270 初始化和数据读取适配。
 
-本文对应 Master Control Board `v1.0.0`。修改 CubeMX 配置或固件功能后，请在仓库根目录的 [CHANGELOG.md](../CHANGELOG.md) 中记录变更。
+## STM Studio 观察 IMU
+
+使用 STM Studio 打开 [st-studio-imu.tsp](../tools/stm-studio/st-studio-imu.tsp)，它引用同目录的 [st-studio-imu.tsc](../tools/stm-studio/st-studio-imu.tsc)。配置指向本地编译生成的 `src/firmware/MDK-ARM/Luq Board/Luq Board.axf`，用于查看 `test.acc_*`、`test.gyr_*` 和 `test.temp`。
+
+使用前先编译对应固件，并在 STM Studio 中确认或重新导入当前 AXF 的变量地址；配置中保存的历史地址不能代替当前构建的符号信息。日志写入 `tools/stm-studio/st-studio-imu.log`，已加入忽略规则。
+
+## 验证范围
+
+- 已核对 Keil 工程的 54 个源文件引用和 12 个包含目录条目，以及 STM Studio 配置的相对路径。
+- 目录整理保持固件源码、工程内部布局、硬件资产、第三方内容与 HEX 镜像不变。
+- 静态检查不包含 Keil 编译、烧录、IMU 实测或电气测试。
+- 项目有 RM 比赛应用经历，但温漂、振动、长期稳定性与完整电气参数报告仍待完善。
+
+修改 CubeMX 配置或固件功能后，应重新编译并验证实际板卡行为；对外发布时保持 [VERSION](../VERSION)、根 README 和 [更新日志](../CHANGELOG.md) 一致，并保留第三方许可证。

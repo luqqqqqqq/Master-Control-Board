@@ -17,7 +17,7 @@
 # Local IDE state
 **/*.uvoptx
 **/DebugConfig/
-/docs/tools/st-studio-imu.log
+/tools/stm-studio/st-studio-imu.log
 
 # OS/editor files
 .DS_Store
@@ -26,4 +26,4 @@ Thumbs.db
 *.swp
 
 # Keep the checked-in release image available from the repository.
-!v1.0.0/firmware/releases/*.hex
+!releases/v1.0.0/*.hex
