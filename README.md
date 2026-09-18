@@ -5,8 +5,8 @@
 **面向机器人控制系统的开源 STM32 主控板**<br>
 *An open-source STM32 control board for robotics projects*
 
-[![Version](https://img.shields.io/badge/version-v1.0.0-2563eb.svg)](https://github.com/luqqqqqqq/Master-Control-Board/releases/tag/v1.0.0)
-[![Status](https://img.shields.io/badge/status-stable-16a34a.svg)](https://github.com/luqqqqqqq/Master-Control-Board/releases/tag/v1.0.0)
+[![Version](https://img.shields.io/github/v/tag/luqqqqqqq/Master-Control-Board?label=version&color=2563eb)](https://github.com/luqqqqqqq/Master-Control-Board/tree/v1.0.0)
+[![Status](https://img.shields.io/badge/status-stable-16a34a.svg)](https://github.com/luqqqqqqq/Master-Control-Board/tree/v1.0.0)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-7c3aed.svg)](LICENSE)
 
 </div>
