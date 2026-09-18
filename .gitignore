@@ -1,0 +1,27 @@
+# Keil / µVision build output
+**/MDK-ARM/*/*.o
+**/MDK-ARM/*/*.d
+**/MDK-ARM/*/*.crf
+**/MDK-ARM/*/*.axf
+**/MDK-ARM/*/*.map
+**/MDK-ARM/*/*.lst
+**/MDK-ARM/*/*.dep
+**/MDK-ARM/*/*.htm
+**/MDK-ARM/*/*.lnp
+**/MDK-ARM/*/*.iex
+**/MDK-ARM/*/*.sct
+**/*.uvguix.*
+**/JLinkLog.txt
+
+# Local IDE state
+**/*.uvoptx
+**/DebugConfig/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# Keep the checked-in release image available from the repository.
+!v1.0.0/firmware/releases/*.hex
